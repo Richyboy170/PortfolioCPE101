@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav {
+    background: #f0ba24;
+    color: #60375f;
+    padding-top: 10px 0;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    opacity: 90%;
+    font-family: Georgia, serif;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00f;
+}
+
+header {
+    background: url('art/check-pattern-wallpaper-brown-gold.jpg') center/cover no-repeat;
+    color: #222000;
+    text-align: center;
+    text-shadow: rgb(0, 0, 0);
+    padding: 100px 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 50%; 
+}
+
+.skillpics {
+    max-width: 50;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.profile-image {
+    width: 30%; 
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+    margin-bottom: 40px;
+}
+
+.mySlides {
+    width: 100%;
+    height: auto;
+}
+
+.profile-imagee {
+    width: 70%; 
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+    margin-bottom: 40px;
+}
+
+.work-image {
+    width: 100%; 
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+    margin-bottom: 40px;
+}
+
+.kmutt-image {
+    width: 20%; 
+    height: auto;
+    margin: 0; 
+    padding: 70;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.text-small {
+    text-align: justify;
+    font-family: Georgia, serif;
+    font-size: 20px;
+}
+
+.text-large{
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+}
+
+.text-smallx {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 20px;
+}
+
+.text-largex {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+}
